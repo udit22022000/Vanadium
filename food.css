@@ -1,0 +1,147 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+* {
+  font-family: "Raleway", sans-serif;
+}
+.border {
+  border: 1px solid red;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  height: 700px;
+  margin: auto;
+}
+
+.main__container {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  height: 400px;
+  margin: 10px 0 0 10px;
+}
+
+.right__side__div {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 130px;
+  margin: 40px;
+  background-color: #edf1e9;
+}
+.right__side__div > span {
+  margin: 20px 0 0 20px;
+}
+.right__side__div > div > input {
+  width: 200px;
+  margin: 0 0 0 20px;
+  height: 20px;
+}
+.right__side__div > div > button {
+  width: 40px;
+  height: 23px;
+}
+
+.plate__img {
+  width: 80px;
+  height: 80px;
+  border-radius: 80%;
+  margin: 10px;
+  background-repeat: no-repeat;
+}
+.main__container__top__div {
+  display: flex;
+  flex-direction: row;
+  margin: 30px;
+  border: 4px solid #33b34b;
+}
+.container__top__div__inside > h1 {
+  font-size: 28px;
+  margin: 20px 0 0 20px;
+  font-family: "Raleway", sans-serif;
+}
+.container__top__div__inside > p {
+  font-size: 16px;
+  margin: 0px 0 0 20px;
+  font-family: "Raleway", sans-serif;
+}
+hr {
+  border-top: 3px solid #ccc;
+}
+
+.main__container__mid__div {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.table__div1 {
+  display: flex;
+  flex-direction: row;
+  width: 48%;
+  height: 115px;
+  border-bottom: 1px solid #ccc;
+}
+.table__div1 > img {
+  margin: 10px;
+}
+
+.table__div1 > div > h4 {
+  margin: 10px 0 0 10px;
+}
+
+.table__div1 > div > p {
+  margin: 5px 0 0 10px;
+}
+.table__div1 > div > h5 {
+  margin: 5px 0 10px 10px;
+}
+
+.table__div1 > div > h4 > a,
+.table__div1 > div > h5 > a {
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  color: #08b1fa;
+}
+
+.main__container__bottom__div {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+
+.main__container__bottom__div > h2 {
+  margin: 10px;
+}
+
+.popular__food {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+.popular__food > h3,
+.popular__food > span {
+  margin: 3px;
+}
+.popular__food > span > a {
+  text-decoration: none;
+  color: #01b0fb;
+  font-size: 14px;
+}
+
+.bottom__tagline__more {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 40px;
+  font-size: 14px;
+  color: #01b0fb;
+}
