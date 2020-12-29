@@ -43,6 +43,9 @@
 .right__side__div > div > button {
   width: 40px;
   height: 23px;
+  background-color: #028cc4;
+  color: white;
+  border: none;
 }
 
 .plate__img {
