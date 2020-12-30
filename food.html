@@ -4,108 +4,92 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>fatsecret</title>
-    <!-- <link rel="stylesheet" href="food.css" /> -->
+    <link rel="stylesheet" href="food.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
     <style>
-      * {
-        padding: 0;
-        margin: 0;
-      }
-      .border {
-        border: 1px solid red;
-      }
-      .container {
-        display: flex;
-        flex-direction: row;
-        width: 90%;
-        height: 700px;
-        margin: auto;
-      }
-
-      .main__container {
-        display: flex;
-        flex-direction: column;
-        width: 70%;
-        height: 400px;
-        margin: 10px 0 0 10px;
-      }
-
-      .right__side__div {
-        display: flex;
-        flex-direction: column;
-        width: 100px;
-        height: 100px;
-        margin: 40px;
-      }
-      .plate__img {
-        width: 80px;
-        height: 80px;
-        border-radius: 80%;
-        margin: 10px;
-        background-repeat: no-repeat;
-      }
-      .main__container__top__div {
-        display: flex;
-        flex-direction: row;
-        margin: 30px;
-        border: 4px solid #33b34b;
-      }
-      .container__top__div__inside > h1 {
-        font-size: 28px;
-        margin: 20px 0 0 20px;
+      .container__tag {
+        margin: 10px 0 10px 0;
         font-family: "Raleway", sans-serif;
-      }
-      .container__top__div__inside > p {
-        font-size: 16px;
-        margin: 0px 0 0 20px;
-        font-family: "Raleway", sans-serif;
-      }
-      hr {
-        border-top: 3px solid #ccc;
-      }
-
-      .main__container__mid__div {
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-        /* height: 400px; */
-      }
-
-      .table__div1 {
-        display: flex;
-        flex-direction: row;
-        width: 45%;
-        height: 100px;
-        margin-top: 20px;
-      }
-      .table__div1 > img {
-        margin: 10px;
-      }
-
-      .table__div1 > div > h4 {
-        margin: 10px 0 0 10px;
-      }
-
-      .table__div1 > div > p {
-        margin: 5px 0 0 10px;
-      }
-      .table__div1 > div > h5 {
-        margin: 5px 0 10px 10px;
-      }
-
-      .table__div1 > div > h4 > a,
-      .table__div1 > div > h5 > a {
-        text-decoration: none;
       }
     </style>
   </head>
   <body>
+    <div class="header">
+      <div class="header1">
+        <div class="header11">
+          <span>Hello shalendrasingh</span> |
+          <span>My Weight: 80 kg, 1 days ago</span> |
+          <span>Sign Out</span>
+        </div>
+      </div>
+      <div class="header2">
+        <div class="header21">
+          <div>
+            <a href="#">
+              <img
+                src="https://d1nept1345ks2.cloudfront.net/static/images/def20/Fatsecret_logo.png"
+                alt="fatsecret"
+                style="margin-bottom: -2px"
+              />
+            </a>
+          </div>
+
+          <div
+            class="menuAllThings"
+            style="
+              font-family: Roboto;
+              font-weight: 900;
+              text-align: right;
+              font-size: 11px;
+            "
+          >
+            INDIA
+          </div>
+
+          <div>
+            <img
+              src="https://d1nept1345ks2.cloudfront.net/static/images/def20/quicksearch/search_foods.png"
+            />
+            <input type="text" placeholder="Enter Search" class="input" />
+            <img
+              src="https://d1nept1345ks2.cloudfront.net/static/images/def20/But_Search_Grey_default.png"
+              onmouseover="this.src='https://d1nept1345ks2.cloudfront.net/static/images/def20/But_Search_Grey_pressed.png'"
+              onmouseout="this.src='https://d1nept1345ks2.cloudfront.net/static/images/def20/But_Search_Grey_default.png'"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header3">
+        <div class="header31">
+          <a href="#">
+            <div>MY FATSECRET</div>
+          </a>
+          <a href="./food.html">
+            <div>FOODS</div>
+          </a>
+          <a href="#">
+            <div>RECIPES</div>
+          </a>
+          <a href="#">
+            <div>FITNESS</div>
+          </a>
+          <a href="#">
+            <div>COMMUNITY</div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- ************************ -->
     <div class="container">
       <div class="main__container">
         <div class="main__container__top__div">
@@ -122,17 +106,19 @@
             </p>
           </div>
         </div>
-        <h2>Browser Common Foods</h2>
+        <h2 class="container__tag">Browser Common Foods</h2>
         <hr />
 
-        <div class="main__container__mid__div border">
-          <div class="table__div1 border">
+        <!-- start code for food and verity here  -->
+
+        <div class="main__container__mid__div">
+          <div class="table__div1">
             <img
               src="https://static.fatsecret.com/static/images/food_groups/beans_legumes.jpg"
             />
             <div>
               <h4>
-                <a href="#"><span>Beans & Legumes</span></a>
+                <a href="./details/bean.html"><span>Beans & Legumes</span></a>
               </h4>
               <p>
                 All types of beans and legumes like baked beans, green beans,
@@ -144,7 +130,7 @@
             </div>
           </div>
 
-          <div class="table__div1 border">
+          <div class="table__div1">
             <img
               src="https://static.fatsecret.com/static/images/food_groups/breads_cereals.jpg"
             />
@@ -161,7 +147,7 @@
               </h5>
             </div>
           </div>
-          <div class="table__div1 border">
+          <div class="table__div1">
             <img
               src="https://static.fatsecret.com/static/images/food_groups/dairy.jpg"
             />
@@ -178,13 +164,13 @@
               </h5>
             </div>
           </div>
-          <div class="table__div1 border">
+          <div class="table__div1">
             <img
               src="https://static.fatsecret.com/static/images/food_groups/beverages.jpg"
             />
             <div>
               <h4>
-                <a href="#"><span>Drinks</span></a>
+                <a href="#"><span>Beverages</span></a>
               </h4>
               <p>
                 Hot and cold drinks like juices, soft drinks, smoothies, coffee,
@@ -195,7 +181,7 @@
               </h5>
             </div>
           </div>
-          <div class="table__div1 border">
+          <div class="table__div1">
             <img
               src="https://static.fatsecret.com/static/images/food_groups/eggs.jpg"
             />
@@ -212,7 +198,7 @@
               </h5>
             </div>
           </div>
-          <div class="table__div1 border">
+          <div class="table__div1">
             <img
               src="https://static.fatsecret.com/static/images/food_groups/fast_food.jpg"
             />
@@ -229,7 +215,7 @@
               </h5>
             </div>
           </div>
-          <div class="table__div1 border">
+          <div class="table__div1">
             <img
               src="https://static.fatsecret.com/static/images/food_groups/fish.jpg"
             />
@@ -246,7 +232,7 @@
               </h5>
             </div>
           </div>
-          <div class="table__div1 border">
+          <div class="table__div1">
             <img
               src="https://static.fatsecret.com/static/images/food_groups/fruit.jpg"
             />
@@ -263,7 +249,7 @@
               </h5>
             </div>
           </div>
-          <div class="table__div1 border">
+          <div class="table__div1">
             <img
               src="https://static.fatsecret.com/static/images/food_groups/meat.jpg"
             />
@@ -280,7 +266,7 @@
               </h5>
             </div>
           </div>
-          <div class="table__div1 border">
+          <div class="table__div1">
             <img
               src="https://static.fatsecret.com/static/images/food_groups/nuts.jpg"
             />
@@ -297,7 +283,7 @@
               </h5>
             </div>
           </div>
-          <div class="table__div1 border">
+          <div class="table__div1">
             <img
               src="https://static.fatsecret.com/static/images/food_groups/pasta_rice.jpg"
             />
@@ -314,7 +300,7 @@
               </h5>
             </div>
           </div>
-          <div class="table__div1 border">
+          <div class="table__div1">
             <img
               src="https://static.fatsecret.com/static/images/food_groups/salads.jpg"
             />
@@ -331,7 +317,7 @@
               </h5>
             </div>
           </div>
-          <div class="table__div1 border">
+          <div class="table__div1">
             <img
               src="https://static.fatsecret.com/static/images/food_groups/sauces.jpg"
             />
@@ -348,7 +334,7 @@
               </h5>
             </div>
           </div>
-          <div class="table__div1 border">
+          <div class="table__div1">
             <img
               src="https://static.fatsecret.com/static/images/food_groups/snacks.jpg"
             />
@@ -365,7 +351,7 @@
               </h5>
             </div>
           </div>
-          <div class="table__div1 border">
+          <div class="table__div1">
             <img
               src="https://static.fatsecret.com/static/images/food_groups/soup.jpg"
             />
@@ -382,7 +368,7 @@
               </h5>
             </div>
           </div>
-          <div class="table__div1 border">
+          <div class="table__div1">
             <img
               src="https://static.fatsecret.com/static/images/food_groups/sweets_desserts.jpg"
             />
@@ -399,7 +385,7 @@
               </h5>
             </div>
           </div>
-          <div class="table__div1 border">
+          <div class="table__div1">
             <img
               src="https://static.fatsecret.com/static/images/food_groups/vegetables.jpg"
             />
@@ -416,7 +402,7 @@
               </h5>
             </div>
           </div>
-          <div class="table__div1 border">
+          <div class="table__div1">
             <img
               src="https://static.fatsecret.com/static/images/food_groups/other.jpg"
             />
@@ -434,9 +420,250 @@
             </div>
           </div>
         </div>
-        <div class="main__container__bottom__div"></div>
+
+        <!--End  code for food and  more... -->
+
+        <!--start  code for popular food brand div and many  more... -->
+        <div class="main__container__bottom__div">
+          <h2>Popular Food Brands</h2>
+
+          <div class="popular__food">
+            <h3>A</h3>
+
+            <span><a href="#"> Alpino,</a></span>
+            <span><a href="#"> Almarai, </a></span>
+            <span><a href="#">Act II</a></span>
+
+            <h3>B</h3>
+
+            <span><a href="#">Bonn,</a></span>
+            <span><a href="#">Bingo!,</a></span>
+            <span><a href="#"> Bounty</a></span>
+
+            <h3>C</h3>
+
+            <span><a href="#"> Complan, </a></span>
+            <span><a href="#">Ching's Secret, </a></span>
+            <span><a href="#">Cheetos</a></span>
+
+            <h3>D</h3>
+
+            <span><a href="#">Double Horse,</a></span>
+            <span><a href="#">Daawat,</a></span>
+            <span><a href="#">Danone</a></span>
+
+            <h3>E</h3>
+
+            <span><a href="#">Eco Valley,</a></span>
+            <span><a href="#">Epigamia,</a></span>
+            <span><a href="#">Everest</a></span>
+
+            <h3>F</h3>
+
+            <span><a href="#">Frito Lay,</a></span>
+            <span><a href="#">Figaro,</a></span>
+            <span><a href="#">Fanta</a></span>
+
+            <h3>G</h3>
+
+            <span><a href="#">Garden,</a></span>
+            <span><a href="#">Gokul,</a></span>
+            <span><a href="#"> Gowardhan </a></span>
+
+            <h3>H</h3>
+
+            <span><a href="#"> Harvest Gold,</a></span>
+            <span><a href="#"> Hatsun, </a></span>
+            <span><a href="#"> Haldiram's</a></span>
+
+            <h3>I</h3>
+
+            <span><a href="#">ID,</a></span>
+            <span><a href="#">India Gate,</a></span>
+            <span><a href="#">Isopure</a></span>
+
+            <h3>J</h3>
+
+            <span><a href="#">Jersey,</a></span>
+            <span><a href="#">Jabsons,</a></span>
+
+            <h3>K</h3>
+
+            <span><a href="#">Karachi Bakery,</a></span>
+            <span><a href="#">Kitchens of India,</a></span>
+            <span><a href="#">Kurkure</a></span>
+
+            <h3>L</h3>
+
+            <span><a href="#">Lay's,</a></span>
+            <span><a href="#">Lijjat,</a></span>
+            <span><a href="#"> Laxmi Brand</a></span>
+
+            <h3>M</h3>
+
+            <span><a href="#">MusclePharm,</a></span>
+            <span><a href="#">MTR,</a></span>
+            <span><a href="#">Manna,</a></span>
+
+            <h3>N</h3>
+
+            <span><a href="#">NutroActive,</a></span>
+            <span><a href="#">Nandini</a></span>
+            <span><a href="#">Nature Valley</a></span>
+
+            <h3>O</h3>
+
+            <span><a href="#">OMG Labs,</a></span>
+            <span><a href="#">Olena</a></span>
+            <span><a href="#">Organic India</a></span>
+
+            <h3>P</h3>
+
+            <span><a href="#">Pillsbury</a></span>
+            <span><a href="#">Paper Boat,</a></span>
+            <span><a href="#">PLIX</a></span>
+
+            <h3>Q</h3>
+
+            <span><a href="#">Quaker</a></span>
+
+            <h3>R</h3>
+
+            <span><a href="#">Real</a></span>
+            <span><a href="#">Ruchi's,</a></span>
+            <span><a href="#">Rite Bite</a></span>
+
+            <h3>S</h3>
+
+            <span><a href="#">Saras,</a></span>
+            <span><a href="#">Snapple,</a></span>
+            <span><a href="#">Sudha</a></span>
+
+            <h3>T</h3>
+
+            <span><a href="#">Twinings,</a></span>
+            <span><a href="#">The Health Factory,</a></span>
+            <span><a href="#">Toblerone</a></span>
+
+            <h3>U</h3>
+
+            <span><a href="#">Unibic</a></span>
+            <span><a href="#">Urban Platter,</a></span>
+            <span><a href="#">Uncle Chipps</a></span>
+
+            <h3>V</h3>
+            <span><a href="#"> Venky's,</a></span>
+            <span><a href="#">Verka,</a></span>
+            <span><a href="#">Veeba</a></span>
+
+            <h3>W</h3>
+
+            <span><a href="#">Wellversed ,</a></span>
+            <span><a href="#">Wockhardt</a></span>
+            <span><a href="#">Wingreens Farms</a></span>
+
+            <h3>Y</h3>
+
+            <span><a href="#">Yoga Bar,</a></span>
+            <span><a href="#">Yoplait</a></span>
+            <span><a href="#">Yakult</a></span>
+
+            <h3>Z</h3>
+            <span><a href="#">Zorabian, </a></span>
+            <span><a href="#"> . . . </a></span>
+          </div>
+          <p class="bottom__tagline__more">Find more popular food brands</p>
+
+          <!--End  code for popular food brand div and many  more... -->
+
+          <!--start  code for Restaurants & Chains    more... -->
+
+          <h2>Restaurants & Chains</h2>
+
+          <div class="popular__food">
+            <h3>B</h3>
+
+            <span><a href="#">Burger King,</a></span>
+
+            <h3>C</h3>
+
+            <span><a href="#">Café Coffee Day,</a></span>
+
+            <h3>D</h3>
+
+            <span><a href="#">Domino's Pizza,</a></span>
+
+            <h3>K</h3>
+
+            <span><a href="#">KFC,</a></span>
+
+            <h3>M</h3>
+
+            <span><a href="#">McDonald's,</a></span>
+
+            <h3>P</h3>
+
+            <span><a href="#">Pizza Hut,</a></span>
+
+            <h3>S</h3>
+
+            <span><a href="#">Saravana Bhavan,</a></span>
+            <span><a href="#">Starbucks,</a></span>
+            <span><a href="#">Subway</a></span>
+
+            <span>...</span>
+          </div>
+          <p class="bottom__tagline__more">Find more restaurants & chains</p>
+          <!--end  code for Restaurants & Chains    more... -->
+
+          <!-- start code for Supermarkets more... -->
+
+          <h2>Supermarkets</h2>
+
+          <div class="popular__food">
+            <h3>F</h3>
+
+            <span><a href="#">Food Bazaar,</a></span>
+
+            <h3>M</h3>
+
+            <span><a href="#">M Metro,</a></span>
+            <span><a href="#">Maveli Stores,</a></span>
+            <span><a href="#">Milky Mist</a></span>
+
+            <h3>K</h3>
+
+            <span><a href="#">KFC,</a></span>
+
+            <h3>N</h3>
+
+            <span><a href="#">N Namdhari's Fresh,</a></span>
+
+            <h3>R</h3>
+
+            <span><a href="#">Ratnadeep,</a></span>
+            <span><a href="#">Reliance Fresh,</a></span>
+
+            <h3>S</h3>
+
+            <span><a href="#">Spencer's,</a></span>
+
+            <span>...</span>
+          </div>
+
+          <p class="bottom__tagline__more">Find more supermarkets</p>
+        </div>
       </div>
-      <div class="right__side__div border"></div>
+      <!-- end code for Supermarkets more... -->
+
+      <!-- code for search box right side -->
+      <div class="right__side__div">
+        <span>Food Search</span><br />
+        <div>
+          <input type="text" placeholder="Enter search" class="input" />
+          <button><i class="fa fa-search"></i></button>
+        </div>
+      </div>
     </div>
   </body>
 </html>
