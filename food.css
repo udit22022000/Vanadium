@@ -228,6 +228,10 @@ hr {
 .header31 {
   display: flex;
 }
+.white_bg {
+  background-color: white;
+  border: none;
+}
 
 .header31 > a {
   text-decoration: none;
