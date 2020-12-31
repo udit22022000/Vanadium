@@ -26,9 +26,9 @@
 .right__side__div {
   display: flex;
   flex-direction: column;
-  width: 400px;
+  width: 300px;
   height: 130px;
-  margin: 40px;
+  margin: 40px 0 0 40px;
   background-color: #edf1e9;
 }
 .right__side__div > span {
@@ -248,4 +248,106 @@ hr {
 .header31 > a > div:hover {
   color: #028cc4;
   background-color: whitesmoke;
+}
+
+.right__container_div_search {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  height: 1050px;
+}
+
+/* -----  member__meal_   -------- */
+
+.member__meal__div {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 462px;
+  margin: 40px 0 0 40px;
+  background-color: #edf1e9;
+}
+
+.member__meal__div > h4 {
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.member__meal__div > h5 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 20px;
+  font-size: 10px;
+}
+.member__meal__div > h5 > a {
+  text-decoration: none;
+  color: #028cc4;
+}
+.meal_disc_container__div {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid #ccc;
+  width: 300px;
+  margin-top: 10px;
+}
+
+.meal_disc_container__div > div {
+  margin-left: 20px;
+  line-height: 20px;
+  font-size: 12px;
+}
+.meal_disc_container__div > div > a {
+  text-decoration: none;
+}
+
+.member__meal__div > span {
+  margin-left: 10px;
+  margin-top: 10px;
+  font-size: 12px;
+  font-weight: bold;
+  color: rgb(112, 111, 111);
+}
+
+.meal__descp > a {
+  margin-left: 5px;
+  margin-top: 5px;
+  color: #028cc4;
+}
+
+/* code for recent popular div */
+.recent__popular {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 320px;
+  margin: 40px 0 0 40px;
+  background-color: #edf1e9;
+}
+
+.recent__popular > h4 {
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.recent__popular > span {
+  margin: 10px 0 0 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.recent__popular > span > img {
+  margin-right: 10px;
+}
+
+.recent__popular > span > a {
+  font-size: 10px;
+  font-weight: bold;
+  color: #028cc4;
+  text-decoration: none;
 }
