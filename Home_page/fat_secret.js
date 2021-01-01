@@ -1,3 +1,198 @@
+//adding data to local storage
+function local_storage_feeds() {
+  var everyone_data = [
+    {
+      profile_pic: "profile_pic2.jpg",
+      name: "Himanshu Kumar",
+      post1: "Grapes.........",
+      post2:
+        "https://www.aicr.org/wp-content/uploads/2020/01/shutterstock_533487490-640x462.jpg",
+      other_likes: 999,
+      other_comment_pic: "profile_pic3.jpg",
+      other_comment: "Heyyyy..............",
+      other_commentor: "Rohan Kumar",
+    },
+    {
+      profile_pic: "profile_pic3.jpg",
+      name: "Rohan Kumar",
+      post1: "Mango.....",
+      post2:
+        "https://agfstorage.blob.core.windows.net/misc/FP_com/2020/01/24/Aman.jpg",
+      other_likes: 101,
+      other_comment_pic: "profile_pic2.jpg",
+      other_comment: "Hello ................",
+      other_commentor: "Sahil Raj",
+    },
+
+    {
+      profile_pic: "profile_pic2.jpg",
+      name: "Himanshu Kumar",
+      post1: "Pine apples.........",
+      post2:
+        "https://images2.minutemediacdn.com/image/upload/c_crop,h_1414,w_2101,x_10,y_0/v1588813744/shape/mentalfloss/65506-gettyimages-1045593054.jpg?itok=5LCrTexY",
+      other_likes: 600,
+      other_comment_pic: "profile_pic3.jpg",
+      other_comment: "Heyyyy..............",
+      other_commentor: "Rohan Kumar",
+    },
+    {
+      profile_pic: "profile_pic.jpg",
+      name: "Uidtanshu Kumar",
+      post1: "Lemon.....",
+      post2:
+        "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/lemon-juice-royalty-free-image-510180395-1531432390.jpg",
+      other_likes: 166,
+      other_comment_pic: "profile_pic2.jpg",
+      other_comment: "Hello ................",
+      other_commentor: "Sahil Raj",
+    },
+
+    {
+      profile_pic: "profile_pic.jpg",
+      name: "Uditanshu Kumar",
+      post1: "Strawberry.........",
+      post2:
+        "https://media.npr.org/assets/img/2020/01/31/oishii-3_wide-a40b1c8ee1df6a63c2b848734e61b1adde9cd1a3.jpg?s=1400",
+      other_likes: 476,
+      other_comment_pic: "profile_pic3.jpg",
+      other_comment: "Heyyyy..............",
+      other_commentor: "Rohan Kumar",
+    },
+    {
+      profile_pic: "profile_pic3.jpg",
+      name: "Rohan Kumar",
+      post1: "Guava.....",
+      post2:
+        "https://www.verywellfit.com/thmb/47PJ_VIIkkls10NkZHAmw3FhEC4=/1333x1000/smart/filters:no_upscale()/guava_annotated-1085716a264e420da311e61d0b9129e8.jpg",
+      other_likes: 771,
+      other_comment_pic: "profile_pic2.jpg",
+      other_comment: "Hello ................",
+      other_commentor: "Sahil Raj",
+    },
+
+    {
+      profile_pic: "profile_pic2.jpg",
+      name: "Himanshu Kumar",
+      post1: "Water Melon.........",
+      post2:
+        "https://cdn.mos.cms.futurecdn.net/QCRt2ButzyC6FJi8pb6hNi-1200-80.jpg",
+      other_likes: 710,
+      other_comment_pic: "profile_pic3.jpg",
+      other_comment: "Heyyyy..............",
+      other_commentor: "Rohan Kumar",
+    },
+    {
+      profile_pic: "profile_pic3.jpg",
+      name: "Rohan Kumar",
+      post1: "Banana.....",
+      post2:
+        "https://post.medicalnewstoday.com/wp-content/uploads/sites/3/2020/02/271157_2200-732x549.jpg",
+      other_likes: 501,
+      other_comment_pic: "profile_pic2.jpg",
+      other_comment: "Hello ................",
+      other_commentor: "Sahil Raj",
+    },
+  ];
+
+  var me_data = [
+    {
+      profile_pic: "profile_pic.jpg",
+      name: "Uidtanshu Kumar",
+      post1: "Lemon.....",
+      post2:
+        "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/lemon-juice-royalty-free-image-510180395-1531432390.jpg",
+      other_likes: 166,
+      other_comment_pic: "profile_pic2.jpg",
+      other_comment: "Hello ................",
+      other_commentor: "Sahil Raj",
+    },
+
+    {
+      profile_pic: "profile_pic.jpg",
+      name: "Uditanshu Kumar",
+      post1: "Strawberry.........",
+      post2:
+        "https://media.npr.org/assets/img/2020/01/31/oishii-3_wide-a40b1c8ee1df6a63c2b848734e61b1adde9cd1a3.jpg?s=1400",
+      other_likes: 476,
+      other_comment_pic: "profile_pic3.jpg",
+      other_comment: "Heyyyy..............",
+      other_commentor: "Rohan Kumar",
+    },
+  ];
+
+  var featured_data = [
+    {
+      profile_pic: "profile_pic3.jpg",
+      name: "Rohan Kumar",
+      post1: "Banana.....",
+      post2:
+        "https://post.medicalnewstoday.com/wp-content/uploads/sites/3/2020/02/271157_2200-732x549.jpg",
+      other_likes: 501,
+      other_comment_pic: "profile_pic2.jpg",
+      other_comment: "Hello ................",
+      other_commentor: "Sahil Raj",
+    },
+
+    {
+      profile_pic: "profile_pic2.jpg",
+      name: "Himanshu Kumar",
+      post1: "Grapes.........",
+      post2:
+        "https://www.aicr.org/wp-content/uploads/2020/01/shutterstock_533487490-640x462.jpg",
+      other_likes: 999,
+      other_comment_pic: "profile_pic3.jpg",
+      other_comment: "Heyyyy..............",
+      other_commentor: "Rohan Kumar",
+    },
+  ];
+
+  var following_data = [
+    {
+      profile_pic: "profile_pic3.jpg",
+      name: "Rohan Kumar",
+      post1: "Guava.....",
+      post2:
+        "https://www.verywellfit.com/thmb/47PJ_VIIkkls10NkZHAmw3FhEC4=/1333x1000/smart/filters:no_upscale()/guava_annotated-1085716a264e420da311e61d0b9129e8.jpg",
+      other_likes: 771,
+      other_comment_pic: "profile_pic2.jpg",
+      other_comment: "Hello ................",
+      other_commentor: "Sahil Raj",
+    },
+
+    {
+      profile_pic: "profile_pic2.jpg",
+      name: "Himanshu Kumar",
+      post1: "Water Melon.........",
+      post2:
+        "https://cdn.mos.cms.futurecdn.net/QCRt2ButzyC6FJi8pb6hNi-1200-80.jpg",
+      other_likes: 710,
+      other_comment_pic: "profile_pic3.jpg",
+      other_comment: "Heyyyy..............",
+      other_commentor: "Rohan Kumar",
+    },
+  ];
+
+  var a1 = localStorage.getItem("me_data");
+  var b1 = localStorage.getItem("following_data");
+  var c1 = localStorage.getItem("featured_data");
+  var d1 = localStorage.getItem("following_data");
+
+  if (a1 == null) {
+    localStorage.setItem("me_data", JSON.stringify(me_data));
+  }
+  if (b1 == null) {
+    localStorage.setItem("following_data", JSON.stringify(following_data));
+  }
+  if (c1 == null) {
+    localStorage.setItem("featured_data", JSON.stringify(featured_data));
+  }
+  if (d1 == null) {
+    localStorage.setItem("everyone_data", JSON.stringify(everyone_data));
+  }
+}
+
+local_storage_feeds();
+
 function display_handler(event) {
   var ele1 = document.getElementById("disp_feeds");
   var ele2 = document.getElementById("disp_calendar");
@@ -72,7 +267,12 @@ class post_feeds {
     name = "Uditanshu Kumar",
     post_details,
     post_image,
-    feed_id
+    feed_id,
+    self_flag = false,
+    other_likes = 0,
+    other_comment_pic = "profile_pic.jpg",
+    other_comment = "hey...buddies",
+    other_commentor = "Uditanshu Kumar"
   ) {
     this.name = name;
     this.profile_pic = profile_pic;
@@ -80,6 +280,11 @@ class post_feeds {
     this.post_image = post_image;
     this.feed_id = feed_id;
     this.flag_likes = 0;
+    this.self_flag = self_flag;
+    this.other_likes = other_likes;
+    this.other_comment_pic = other_comment_pic;
+    this.other_comment = other_comment;
+    this.other_commentor = other_commentor;
     this.add_data_to_parent();
     this.activate_features();
   }
@@ -130,7 +335,7 @@ class post_feeds {
                         </div>
                         <div class="df_post_41_supporter1">
                           <img src="https://static.fatsecret.com/static/images/def20/feed/But_support_default.png"/>
-                          <span id="df_post_41_supporter1_${this.feed_id}">26</span> supporters
+                          <span id="df_post_41_supporter1_${this.feed_id}">${this.other_likes}</span> supporters
                         </div>
                         <button class="df_post_41_supporter2" id="df_post_41_supporter2_${this.feed_id}">
                           <img src="https://static.fatsecret.com/static/images/def20/feed/But_support_default.png" id="df_post_41_supporter21_${this.feed_id}"/>
@@ -141,16 +346,99 @@ class post_feeds {
                           <div class="df_post_42_read_comment" id="df_post_42_read_comment_${this.feed_id}">
                             <div class="df_post_42_read_comment_1">
                               <div>
-                                <img src="${this.profile_pic}" />
+                                <img src="${this.other_comment_pic}" />
                               </div>
                               <div>
-                                <span>${this.name}</span><br />
+                                <span>${this.other_commentor}</span><br />
                                 <span
-                                  >jvsjdbsabdhasbdhbsajdbsjabdsakndksandkkdjbksabd
-                                  jhbdhbdhvsjdbsabdhasbdhbsajdbsjabd jhbdhbdh</span
+                                  >${this.other_comment}</span
                                 >
                               </div>
                             </div>
+                          </div>
+                          <div class="df_post_42_insert_comment">
+                            <img src="profile_pic.jpg" alt="profile_pic" />
+                            <input
+                              type="text"
+                              placeholder="Write Comment"
+                              id="df_post_42_insert_comment_1_${this.feed_id}"
+                            />
+                          </div>
+                          <div class="df_post_42_post_comment">
+                          <button
+                            class="df_post_42_post_comment_button_1"
+                            id="df_post_42_post_comment_button_1_${this.feed_id}"
+                          >
+                            Post Comment
+                          </button>
+                          <button
+                            class="df_post_42_post_comment_button_2"
+                            id="df_post_42_post_comment_button_2_${this.feed_id}"
+                          >
+                            Cancel
+                          </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                      `;
+    return element;
+  };
+
+  post_element_self = () => {
+    var element = "";
+    element += ` <div class="df_post">
+                    <div class="df_post_1">
+                      <div class="df_post_11">
+                        <img src="${this.profile_pic}" height="60px" width="60px" />
+                      </div>
+                      <div class="df_post_12">
+                        <br />
+                        <a href="#" id="df_post_12_view_short_profile_${this.feed_id}">${this.name}</a>
+                        <div class="df_post_12_short_profile" id="df_post_12_short_profile_${this.feed_id}" style="visibility: hidden">
+                          <div class="df_post_12_short_profile_1">
+                          <div><img src="${this.profile_pic}" /></div>
+                          <div>
+                            ${this.name}<br />
+                            <br />
+                            <span>Lost so far: 3.0</span>&nbsp;&nbsp;&nbsp;&nbsp;
+                            <span>Still to go: 8.5</span>
+                          </div>
+                        </div>
+                        <div class="df_post_12_short_profile_2">
+                          <button class="df_post_12_short_profile_21">
+                            Follow +
+                          </button>
+                          <button class="df_post_12_short_profile_22">
+                            View Member profile +
+                          </button>
+                        </div>
+                      </div>
+                      <br /><br />
+                      ${this.post_details}
+                      </div>
+                    </div>
+                    <div class="df_post_2">
+                      <img src="${this.post_image}"/>
+                    </div>
+                    <div class="df_post_3">few minutes ago</div>
+                    <div class="df_post_4">
+                      <div class="df_post_41">
+                        <div class="df_post_41_comments">
+                          <span id="df_post_41_comments_${this.feed_id}">0</span> comments
+                        </div>
+                        <div class="df_post_41_supporter1">
+                          <img src="https://static.fatsecret.com/static/images/def20/feed/But_support_default.png"/>
+                          <span id="df_post_41_supporter1_${this.feed_id}">0</span> supporters
+                        </div>
+                        <button class="df_post_41_supporter2" id="df_post_41_supporter2_${this.feed_id}">
+                          <img src="https://static.fatsecret.com/static/images/def20/feed/But_support_default.png" id="df_post_41_supporter21_${this.feed_id}"/>
+                          support
+                        </button>
+                      </div>
+                      <div class="df_post_42">
+                          <div class="df_post_42_read_comment" id="df_post_42_read_comment_${this.feed_id}">
+                            
                           </div>
                           <div class="df_post_42_insert_comment">
                             <img src="${this.profile_pic}" alt="profile_pic" />
@@ -176,7 +464,7 @@ class post_feeds {
                           </div>
                         </div>
                       </div>
-                
+                    </div>
                       `;
     return element;
   };
@@ -221,10 +509,10 @@ class post_feeds {
     );
     var result_element = `<div class="df_post_42_read_comment_1">
                           <div>
-                            <img src="${this.profile_pic}" />
+                            <img src="profile_pic.jpg" />
                           </div>
                           <div>
-                            <span>${this.name}</span><br />
+                            <span>Uditanshu Kumar</span><br />
                             <span
                               >${comment}</span
                             >
@@ -278,21 +566,38 @@ class post_feeds {
     );
     element2.addEventListener("click", this.add_likes_helper);
   };
+  //ADD likes end
+
+  //Add post to main screen......START
 
   add_data_to_parent = () => {
     var post_box = document.getElementById("disp_feeds");
-    post_box.innerHTML += this.post_element();
+    if (this.self_flag == false) {
+      post_box.innerHTML = this.post_element() + post_box.innerHTML;
+    } else {
+      post_box.innerHTML = this.post_element_self() + post_box.innerHTML;
+    }
   };
 
-  //Add likes...END
+  //Add post to the main screen ....END
 
+  //activate features of the posts..that has been add till now...START
   activate_features = () => {
     document.getElementById("feeds").addEventListener("click", () => {
       this.short_profile();
       this.add_likes();
       this.add_comments();
     });
+
+    document
+      .getElementById("fd_1_divergents_6")
+      .addEventListener("click", () => {
+        this.short_profile();
+        this.add_likes();
+        this.add_comments();
+      });
   };
+  //activate features of the posts..that has been add till now...END
 }
 
 class display_feeds {
@@ -300,38 +605,249 @@ class display_feeds {
     this.count = 1;
     this.post_container = {};
     this.calling_feeds1();
+    this.calling_feeds2();
+    this.getting_data();
   }
 
-  calling_feeds1 = () => {
-    const feeds_arr = [
+  //FOR DISPLAYING THE DATA THAT HAS BEEN POSTED BY THE USER IN THE REAL TIME...
+  //AND ADDING THOSE DATA TO THE LOCAL STORAGE......
+  calling_feeds3 = () => {
+    var val1 = document.getElementById("dfpc_input_desc");
+    var val2 = document.getElementById("dfpc_input_image");
+    this.post_container[this.count] = new post_feeds(
+      "profile_pic.jpg",
+      "Uditanshu Kumar",
+      val1.value,
+      val2.value,
+      this.count,
+      true
+    );
+
+    var new_element = {
+      profile_pic: "profile_pic.jpg",
+      name: "Uditanshu Kumar",
+      post1: val1.value,
+      post2: val2.value,
+    };
+
+    var everyone_data = localStorage.getItem("everyone_data");
+    everyone_data = JSON.parse(everyone_data);
+    everyone_data.push(new_element);
+    localStorage.setItem("everyone_data", JSON.stringify(everyone_data));
+
+    var me_data = localStorage.getItem("me_data");
+    me_data = JSON.parse(me_data);
+    me_data.push(new_element);
+    localStorage.setItem("me_data", JSON.stringify(me_data));
+
+    this.count += 1;
+    val1.value = "";
+    val2.value = "";
+  };
+
+  //HELPER FUNCTION FOR FETCHING DATA FROM THE FORM IN REAL TIME...
+  calling_feeds2 = () => {
+    document
+      .getElementById("dfpc_input3_submit_button")
+      .addEventListener("click", this.calling_feeds3);
+  };
+
+  //FOR DISPLAYING DATA PRESENT IN THE LOCAL STORAGE
+  calling_feeds1 = (new_arr = "Hello") => {
+    var feeds_arr = [
       {
         profile_pic: "profile_pic.jpg",
-        name: "uditanshu",
-        post1: "jashjasbjbsaashhjase dwhjbdqwhjdjqw",
+        name: "Rohan Kumar",
+        post1: "Mango.....",
         post2:
-          "https://m.ftscrt.com/food/d14ea67b-d60c-4a31-902d-df8390af6654_fs2.jpg",
+          "https://agfstorage.blob.core.windows.net/misc/FP_com/2020/01/24/Aman.jpg",
+        other_likes: 101,
+        other_comment_pic: "profile_pic2.jpg",
+        other_comment: "Hello ................",
+        other_commentor: "Sahil Raj",
       },
+
       {
-        profile_pic: "profile_pic.jpg",
-        name: "rahul",
-        post1: "jbfbdfefberferbrfbrfb",
+        profile_pic: "profile_pic2.jpg",
+        name: "Himanshu Kumar",
+        post1: "Pine apples.........",
         post2:
-          "https://m.ftscrt.com/food/d14ea67b-d60c-4a31-902d-df8390af6654_fs2.jpg",
+          "https://images2.minutemediacdn.com/image/upload/c_crop,h_1414,w_2101,x_10,y_0/v1588813744/shape/mentalfloss/65506-gettyimages-1045593054.jpg?itok=5LCrTexY",
+        other_likes: 600,
+        other_comment_pic: "profile_pic3.jpg",
+        other_comment: "Heyyyy..............",
+        other_commentor: "Rohan Kumar",
       },
     ];
+    document.getElementById("disp_feeds").innerHTML = ""; //MAKING THE FEEDS DISPLAY AREA EMPTY BEFORE ADDING JOURNALS TO IT...
 
+    if (new_arr != "Hello") {
+      feeds_arr = new_arr;
+    }
     for (let i = 0; i < feeds_arr.length; i++) {
       this.post_container[this.count] = new post_feeds(
         feeds_arr[i]["profile_pic"],
         feeds_arr[i]["name"],
         feeds_arr[i]["post1"],
         feeds_arr[i]["post2"],
-        this.count
+        this.count,
+        false,
+        feeds_arr[i]["other_likes"],
+        feeds_arr[i]["other_comment_pic"],
+        feeds_arr[i]["other_comment"],
+        feeds_arr[i]["other_commentor"]
       );
       this.count += 1;
     }
-    console.log(this.post_container);
+  };
+
+  //FOR FETCHING DATA FROM LOCAL STORAGE
+  getting_data = () => {
+    var me_button = document.getElementById(
+      "fd_21_section_heading_dropdown_me"
+    );
+
+    var following_button = document.getElementById(
+      "fd_21_section_heading_dropdown_following"
+    );
+
+    var featured_button = document.getElementById(
+      "fd_21_section_heading_dropdown_featured"
+    );
+
+    var everyone_button = document.getElementById(
+      "fd_21_section_heading_dropdown_everyone"
+    );
+    me_button.addEventListener("click", () => {
+      var me_data = localStorage.getItem("me_data");
+      me_data = JSON.parse(me_data);
+      this.calling_feeds1(me_data);
+    });
+
+    following_button.addEventListener("click", () => {
+      var following_data = localStorage.getItem("following_data");
+      following_data = JSON.parse(following_data);
+      this.calling_feeds1(following_data);
+    });
+
+    featured_button.addEventListener("click", () => {
+      var featured_data = localStorage.getItem("featured_data");
+      featured_data = JSON.parse(featured_data);
+      this.calling_feeds1(featured_data);
+    });
+
+    everyone_button.addEventListener("click", () => {
+      var everyone_data = localStorage.getItem("everyone_data");
+      everyone_data = JSON.parse(everyone_data);
+      this.calling_feeds1(everyone_data);
+    });
   };
 }
 
 var fat_secret_feeds_container = new display_feeds();
+
+// display date in the footer's upper part ....TILE....
+
+function get_date() {
+  var date = new Date();
+  var month = date.getUTCMonth() + 1;
+  var day = date.getUTCDate();
+  var year = date.getUTCFullYear();
+
+  var weekday = ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"];
+  var month_names = [
+    "JAN",
+    "FEB",
+    "MAR",
+    "APR",
+    "MAY",
+    "JUN",
+    "JULY",
+    "AUG",
+    "SEP",
+    "OCT",
+    "NOV",
+    "DEC",
+  ];
+
+  var present_day = weekday[date.getDay()];
+  var parent_element_1 = document.getElementById("fd_1_divergents_2_date_1");
+  parent_element_1.innerHTML = present_day + " " + day;
+  var parent_element_2 = document.getElementById("fd_1_divergents_2_date_2");
+  parent_element_2.innerHTML = month_names[month - 1] + " " + year;
+}
+get_date();
+
+//dropdown menu function for feed section header......
+
+function handle_feed_dropdown() {
+  var drop_element1 = document.getElementById(
+    "fd_21_section_heading_drop_selector"
+  );
+  var drop_element2 = document.getElementById("fd_21_section_heading_dropdown");
+
+  drop_element1.addEventListener("mouseover", () => {
+    drop_element2.style.visibility = "visible";
+  });
+
+  drop_element1.addEventListener("mouseout", () => {
+    drop_element2.style.visibility = "hidden";
+  });
+}
+handle_feed_dropdown();
+
+//handling visibility of tick mark in dropdown....
+function handling_tick_visibility() {
+  var me_button = document.getElementById("fd_21_section_heading_dropdown_me");
+
+  var following_button = document.getElementById(
+    "fd_21_section_heading_dropdown_following"
+  );
+
+  var featured_button = document.getElementById(
+    "fd_21_section_heading_dropdown_featured"
+  );
+
+  var everyone_button = document.getElementById(
+    "fd_21_section_heading_dropdown_everyone"
+  );
+
+  var tick1 = document.getElementById("fd_21_dropdown_tick1");
+  var tick2 = document.getElementById("fd_21_dropdown_tick2");
+  var tick3 = document.getElementById("fd_21_dropdown_tick3");
+  var tick4 = document.getElementById("fd_21_dropdown_tick4");
+
+  me_button.addEventListener("mouseover", () => {
+    tick1.style.visibility = "visible";
+  });
+
+  me_button.addEventListener("mouseout", () => {
+    tick1.style.visibility = "hidden";
+  });
+
+  following_button.addEventListener("mouseover", () => {
+    tick2.style.visibility = "visible";
+  });
+
+  following_button.addEventListener("mouseout", () => {
+    tick2.style.visibility = "hidden";
+  });
+
+  featured_button.addEventListener("mouseover", () => {
+    tick3.style.visibility = "visible";
+  });
+
+  featured_button.addEventListener("mouseout", () => {
+    tick3.style.visibility = "hidden";
+  });
+
+  everyone_button.addEventListener("mouseover", () => {
+    tick4.style.visibility = "visible";
+  });
+
+  everyone_button.addEventListener("mouseout", () => {
+    tick4.style.visibility = "hidden";
+  });
+}
+
+handling_tick_visibility();
