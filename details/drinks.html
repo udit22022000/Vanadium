@@ -700,8 +700,13 @@
       <div class="right__side__div">
         <span>Food Search</span><br />
         <div>
-          <input type="text" placeholder="Enter search" class="input" />
-          <button><i class="fa fa-search"></i></button>
+          <input
+            type="text"
+            id="myInput"
+            placeholder="Enter search"
+            class="input"
+          />
+          <button onclick="alertM()"><i class="fa fa-search"></i></button>
         </div>
       </div>
     </div>
@@ -751,5 +756,13 @@
         <p>&copy; 2020 FatSecret. All rights reserved.</p>
       </div>
     </div>
+
+    <script>
+      function alertM() {
+        var inputData = document.getElementById("myInput").value;
+
+        alert(inputData + " " + " no DataBase found");
+      }
+    </script>
   </body>
 </html>

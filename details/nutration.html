@@ -368,8 +368,13 @@
         <div class="right__side__div">
           <span>Food Search</span><br />
           <div>
-            <input type="text" placeholder="Enter search" class="input" />
-            <button><i class="fa fa-search"></i></button>
+            <input
+              type="text"
+              id="myInput"
+              placeholder="Enter search"
+              class="input"
+            />
+            <button onclick="alertM()"><i class="fa fa-search"></i></button>
           </div>
         </div>
         <div class="right__side_add__div">
@@ -384,7 +389,7 @@
           ><br />
           <div style="margin-top: 5px">
             date :
-            <select style="width: 200px" id="date">
+            <select id="date" style="width: 200px" id="date">
               <option>Today - 31/12/2020</option>
               <option>Tomorrow - 01/01/2021</option>
               <option>Yesterday - 30/12/2020</option>
@@ -392,7 +397,7 @@
             ><br />
 
             meal:
-            <select style="width: 200px; margin-top: 5px">
+            <select id="meal" style="width: 200px; margin-top: 5px">
               <option>Breakfast</option>
               <option>Lunch</option>
               <option>Dinner</option>
@@ -402,20 +407,24 @@
             <input
               type="text"
               name="name"
+              id="name"
               value="Baked Beans"
               style="margin-top: 5px"
             />
             amount:
             <input
               type="number"
+              id="amount"
               name="amount"
               value="1"
               style="width: 50px; margin-top: 5px"
-            /><select style="width: 150px; height: 25px">
+            /><select id="qunty" style="width: 150px; height: 25px">
               <option>Cup</option>
             </select>
 
-            <button style="width: 60px" id="save">Save</button>
+            <button style="width: 60px" id="save" onclick="saveDataLocal()">
+              Save
+            </button>
             <button style="width: 80px" id="refresh">Refresh</button>
             <button
               id="cancel"
@@ -556,5 +565,44 @@
         <p>&copy; 2020 FatSecret. All rights reserved.</p>
       </div>
     </div>
+
+    <script>
+      function saveDataLocal() {
+        var takeDateValue = document.getElementById("date").value;
+        var takeMealValue = document.getElementById("meal").value;
+        var takeNameValue = document.getElementById("name").value;
+        var takeAmountValue = document.getElementById("amount").value;
+        var takeContainerValue = document.getElementById("qunty").value;
+        localStorage.setItem("Date", takeDateValue);
+        localStorage.setItem("Meal", takeMealValue);
+        localStorage.setItem("Name", takeNameValue);
+        localStorage.setItem("Amount", takeAmountValue);
+        localStorage.setItem("ContainerType", takeContainerValue);
+        alert("sucess save in local storage");
+      }
+
+      function alertM() {
+        var inputData = document.getElementById("myInput").value;
+
+        alert(inputData + " " + " not found in DataBase");
+      }
+
+      function searchData() {
+        var input = document.getElementById("myInput");
+        var filter = input.value.toUpperCase();
+        var divName = document.getElementById("related_list_div");
+        var insideDiv = divName.getElementsByTagName("div");
+        for (i = 0; i < insideDiv.length; i++) {
+          var a = insideDiv[i].getElementsByTagName("a")[0];
+          var txtValue = a.textContent || a.innerText;
+          if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            insideDiv[i].style.display = "";
+          } else {
+            insideDiv[i].style.display = "none";
+          }
+        }
+        alert(searchData());
+      }
+    </script>
   </body>
 </html>
