@@ -5,8 +5,7 @@ function local_storage_feeds() {
       profile_pic: "profile_pic2.jpg",
       name: "Himanshu Kumar",
       post1: "Grapes.........",
-      post2:
-        "https://www.aicr.org/wp-content/uploads/2020/01/shutterstock_533487490-640x462.jpg",
+      post2: "images/grapes.jpg",
       other_likes: 999,
       other_comment_pic: "profile_pic3.jpg",
       other_comment: "Heyyyy..............",
@@ -16,8 +15,7 @@ function local_storage_feeds() {
       profile_pic: "profile_pic3.jpg",
       name: "Rohan Kumar",
       post1: "Mango.....",
-      post2:
-        "https://agfstorage.blob.core.windows.net/misc/FP_com/2020/01/24/Aman.jpg",
+      post2: "images/mango.jpg",
       other_likes: 101,
       other_comment_pic: "profile_pic2.jpg",
       other_comment: "Hello ................",
@@ -28,8 +26,7 @@ function local_storage_feeds() {
       profile_pic: "profile_pic2.jpg",
       name: "Himanshu Kumar",
       post1: "Pine apples.........",
-      post2:
-        "https://images2.minutemediacdn.com/image/upload/c_crop,h_1414,w_2101,x_10,y_0/v1588813744/shape/mentalfloss/65506-gettyimages-1045593054.jpg?itok=5LCrTexY",
+      post2: "images/pineapple.jpg",
       other_likes: 600,
       other_comment_pic: "profile_pic3.jpg",
       other_comment: "Heyyyy..............",
@@ -39,8 +36,7 @@ function local_storage_feeds() {
       profile_pic: "profile_pic.jpg",
       name: "Uidtanshu Kumar",
       post1: "Lemon.....",
-      post2:
-        "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/lemon-juice-royalty-free-image-510180395-1531432390.jpg",
+      post2: "images/lemon.jpg",
       other_likes: 166,
       other_comment_pic: "profile_pic2.jpg",
       other_comment: "Hello ................",
@@ -51,8 +47,7 @@ function local_storage_feeds() {
       profile_pic: "profile_pic.jpg",
       name: "Uditanshu Kumar",
       post1: "Strawberry.........",
-      post2:
-        "https://media.npr.org/assets/img/2020/01/31/oishii-3_wide-a40b1c8ee1df6a63c2b848734e61b1adde9cd1a3.jpg?s=1400",
+      post2: "images/strawberry.jpg",
       other_likes: 476,
       other_comment_pic: "profile_pic3.jpg",
       other_comment: "Heyyyy..............",
@@ -62,8 +57,7 @@ function local_storage_feeds() {
       profile_pic: "profile_pic3.jpg",
       name: "Rohan Kumar",
       post1: "Guava.....",
-      post2:
-        "https://www.verywellfit.com/thmb/47PJ_VIIkkls10NkZHAmw3FhEC4=/1333x1000/smart/filters:no_upscale()/guava_annotated-1085716a264e420da311e61d0b9129e8.jpg",
+      post2: "images/guava.jpg",
       other_likes: 771,
       other_comment_pic: "profile_pic2.jpg",
       other_comment: "Hello ................",
@@ -74,8 +68,7 @@ function local_storage_feeds() {
       profile_pic: "profile_pic2.jpg",
       name: "Himanshu Kumar",
       post1: "Water Melon.........",
-      post2:
-        "https://cdn.mos.cms.futurecdn.net/QCRt2ButzyC6FJi8pb6hNi-1200-80.jpg",
+      post2: "images/watermelon.jpg",
       other_likes: 710,
       other_comment_pic: "profile_pic3.jpg",
       other_comment: "Heyyyy..............",
@@ -85,8 +78,7 @@ function local_storage_feeds() {
       profile_pic: "profile_pic3.jpg",
       name: "Rohan Kumar",
       post1: "Banana.....",
-      post2:
-        "https://post.medicalnewstoday.com/wp-content/uploads/sites/3/2020/02/271157_2200-732x549.jpg",
+      post2: "images/banana.jpg",
       other_likes: 501,
       other_comment_pic: "profile_pic2.jpg",
       other_comment: "Hello ................",
@@ -99,8 +91,7 @@ function local_storage_feeds() {
       profile_pic: "profile_pic.jpg",
       name: "Uidtanshu Kumar",
       post1: "Lemon.....",
-      post2:
-        "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/lemon-juice-royalty-free-image-510180395-1531432390.jpg",
+      post2: "images/lemon.jpg",
       other_likes: 166,
       other_comment_pic: "profile_pic2.jpg",
       other_comment: "Hello ................",
@@ -111,8 +102,7 @@ function local_storage_feeds() {
       profile_pic: "profile_pic.jpg",
       name: "Uditanshu Kumar",
       post1: "Strawberry.........",
-      post2:
-        "https://media.npr.org/assets/img/2020/01/31/oishii-3_wide-a40b1c8ee1df6a63c2b848734e61b1adde9cd1a3.jpg?s=1400",
+      post2: "images/strawberry.jpg",
       other_likes: 476,
       other_comment_pic: "profile_pic3.jpg",
       other_comment: "Heyyyy..............",
@@ -125,8 +115,7 @@ function local_storage_feeds() {
       profile_pic: "profile_pic3.jpg",
       name: "Rohan Kumar",
       post1: "Banana.....",
-      post2:
-        "https://post.medicalnewstoday.com/wp-content/uploads/sites/3/2020/02/271157_2200-732x549.jpg",
+      post2: "images/banana.jpg",
       other_likes: 501,
       other_comment_pic: "profile_pic2.jpg",
       other_comment: "Hello ................",
@@ -137,8 +126,7 @@ function local_storage_feeds() {
       profile_pic: "profile_pic2.jpg",
       name: "Himanshu Kumar",
       post1: "Grapes.........",
-      post2:
-        "https://www.aicr.org/wp-content/uploads/2020/01/shutterstock_533487490-640x462.jpg",
+      post2: "images/grapes.jpg",
       other_likes: 999,
       other_comment_pic: "profile_pic3.jpg",
       other_comment: "Heyyyy..............",
@@ -151,8 +139,7 @@ function local_storage_feeds() {
       profile_pic: "profile_pic3.jpg",
       name: "Rohan Kumar",
       post1: "Guava.....",
-      post2:
-        "https://www.verywellfit.com/thmb/47PJ_VIIkkls10NkZHAmw3FhEC4=/1333x1000/smart/filters:no_upscale()/guava_annotated-1085716a264e420da311e61d0b9129e8.jpg",
+      post2: "images/guava.jpg",
       other_likes: 771,
       other_comment_pic: "profile_pic2.jpg",
       other_comment: "Hello ................",
@@ -163,8 +150,7 @@ function local_storage_feeds() {
       profile_pic: "profile_pic2.jpg",
       name: "Himanshu Kumar",
       post1: "Water Melon.........",
-      post2:
-        "https://cdn.mos.cms.futurecdn.net/QCRt2ButzyC6FJi8pb6hNi-1200-80.jpg",
+      post2: "images/watermelon.jpg",
       other_likes: 710,
       other_comment_pic: "profile_pic3.jpg",
       other_comment: "Heyyyy..............",
@@ -194,7 +180,7 @@ function local_storage_feeds() {
 local_storage_feeds();
 
 function display_handler(event) {
-  var ele1 = document.getElementById("disp_feeds");
+  var ele1 = document.getElementById("disp_feeds_main");
   var ele2 = document.getElementById("disp_calendar");
   var ele3 = document.getElementById("disp_food");
   var ele4 = document.getElementById("disp_exercise");
@@ -205,6 +191,7 @@ function display_handler(event) {
   var ele9 = document.getElementById("disp_forum_posts");
   var ele10 = document.getElementById("disp_following");
   var ele11 = document.getElementById("disp_cook_book");
+  var ele12 = document.getElementById("disp_member_profile");
 
   ele1.style.visibility = "hidden";
   ele2.style.visibility = "hidden";
@@ -217,6 +204,7 @@ function display_handler(event) {
   ele9.style.visibility = "hidden";
   ele10.style.visibility = "hidden";
   ele11.style.visibility = "hidden";
+  ele12.style.visibility = "hidden";
 
   var button = event.target;
   if (button.id == "feeds") {
@@ -252,11 +240,19 @@ function display_handler(event) {
   if (button.id == "cook_book") {
     ele11.style.visibility = "visible";
   }
+  if (button.id == "member_profile") {
+    ele12.style.visibility = "visible";
+  }
 }
 
 var topics = document.querySelectorAll(".fm1_items");
 for (var i = 0; i < topics.length; i++) {
   topics[i].addEventListener("click", display_handler);
+}
+
+var topics_2 = document.querySelectorAll(".fm2_items");
+for (var i = 0; i < topics_2.length; i++) {
+  topics_2[i].addEventListener("click", display_handler);
 }
 
 // Feeds
@@ -290,7 +286,7 @@ class post_feeds {
   }
 
   //Return Element...START
-
+  //  <div class="df_post_3"></div> is allocated for filling up the duration ....
   post_element = () => {
     var element = "";
     element += ` <div class="df_post">
@@ -327,7 +323,7 @@ class post_feeds {
                     <div class="df_post_2">
                       <img src="${this.post_image}"/>
                     </div>
-                    <div class="df_post_3">3 days ago</div>
+                    <div class="df_post_3"></div>
                     <div class="df_post_4">
                       <div class="df_post_41">
                         <div class="df_post_41_comments">
@@ -421,7 +417,7 @@ class post_feeds {
                     <div class="df_post_2">
                       <img src="${this.post_image}"/>
                     </div>
-                    <div class="df_post_3">few minutes ago</div>
+                    <div class="df_post_3"></div>
                     <div class="df_post_4">
                       <div class="df_post_41">
                         <div class="df_post_41_comments">
@@ -659,8 +655,7 @@ class display_feeds {
         profile_pic: "profile_pic.jpg",
         name: "Rohan Kumar",
         post1: "Mango.....",
-        post2:
-          "https://agfstorage.blob.core.windows.net/misc/FP_com/2020/01/24/Aman.jpg",
+        post2: "images/mango2.jpg",
         other_likes: 101,
         other_comment_pic: "profile_pic2.jpg",
         other_comment: "Hello ................",
@@ -671,8 +666,7 @@ class display_feeds {
         profile_pic: "profile_pic2.jpg",
         name: "Himanshu Kumar",
         post1: "Pine apples.........",
-        post2:
-          "https://images2.minutemediacdn.com/image/upload/c_crop,h_1414,w_2101,x_10,y_0/v1588813744/shape/mentalfloss/65506-gettyimages-1045593054.jpg?itok=5LCrTexY",
+        post2: "images/pineapple.jpg",
         other_likes: 600,
         other_comment_pic: "profile_pic3.jpg",
         other_comment: "Heyyyy..............",
