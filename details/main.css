@@ -221,8 +221,9 @@
 .menu__show__detail {
   display: flex;
   flex-direction: column;
-  margin: 0px auto;
+  margin: 0px;
   justify-content: left;
+  /* align-items: flex-start; */
   border-bottom: 1px solid #ccc;
 }
 .menu__show__detail > h3 {
@@ -248,6 +249,7 @@
   color: #028cc4;
   font-size: 12px;
   font-weight: bold;
+  text-align: left;
 }
 .popular__food > span > a:hover {
   text-decoration: underline;
