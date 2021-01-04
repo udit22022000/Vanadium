@@ -1,4 +1,4 @@
-document.getElementById("submit").addEventListener("click", getFile)
+document.getElementById("submit").addEventListener("click", getFile);
 
 var count = 0
 function getFile(e){
@@ -34,15 +34,15 @@ function getFile(e){
             alert("Successfully Upload")
         }
     }
-}
+  }
 
-document.getElementById("cancel").addEventListener("click", function(e){
-    e.preventDefault()
-    var old_pic = localStorage.getItem("old_pic")
-    old_pic = JSON.parse(old_pic)
-    var put_old = document.getElementById("change__data__pic")
-    var img  = `<img src = "${old_pic}" width = "290">`
-    put_old.innerHTML = img
+document.getElementById("cancel").addEventListener("click", function (e) {
+  e.preventDefault();
+  var old_pic = localStorage.getItem("old_pic");
+  old_pic = JSON.parse(old_pic);
+  var put_old = document.getElementById("change__data__pic");
+  var img = `<img src = "${old_pic}" width = "290">`;
+  put_old.innerHTML = img;
 
-    location.reload()
-})
+  location.reload();
+});
