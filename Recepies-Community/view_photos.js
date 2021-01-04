@@ -20,7 +20,7 @@ function getFile(e){
         get_data = get_data.replace("C:\\fakepath\\", "");
         var img  = `<img src = "${get_data}" width = "290">`
         new_pic.innerHTML = img
-        alert("Succesfull Upload")
+        alert("Successfully Upload")
         } else{
             data = JSON.stringify(data)
             localStorage.setItem("recent", data)
@@ -31,7 +31,7 @@ function getFile(e){
             var new_pic = document.querySelector("#change__data__pic")
             new_pic.innerHTML = img
             count++
-            alert("Succesfull Upload")
+            alert("Successfully Upload")
         }
     }
 }
