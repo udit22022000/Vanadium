@@ -245,12 +245,12 @@ function display_handler(event) {
   }
 }
 
-var topics = document.querySelectorAll(".fm1_items");
+var topics = document.querySelectorAll(".fm1_items_2");
 for (var i = 0; i < topics.length; i++) {
   topics[i].addEventListener("click", display_handler);
 }
 
-var topics_2 = document.querySelectorAll(".fm2_items");
+var topics_2 = document.querySelectorAll(".fm2_items_2");
 for (var i = 0; i < topics_2.length; i++) {
   topics_2[i].addEventListener("click", display_handler);
 }
