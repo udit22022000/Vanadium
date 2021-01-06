@@ -6,13 +6,20 @@
 
 ## <b>Getting Started with --</b> 
 
-### Step 1 ::: 
+##### After cloning the repo, open the <i>"Home_page/fat_secret.html"</i> file. It is the <b>principal page/feed page</b> of the site. The header section of the page contains a horizontal bar with different options to get on to different pages.
 
+<img width="929" alt="hh" src="./img/1.png">
+
+******Taking one option at a time from the Upper bar**********
+
+<i><b>1. MY FATSECRET</b></i> 
+
+<img width="929" alt="hh" src="./img/1.png">
 
 <ul>
-<li>----------------- Steps to operate the <b>Main Page</b> of the site ------------------------- </li>
-<li>After cloning the repo, open the <b>Home_page/fat_secret.html</b> file. It is the <b>principal page/feed page</b> of the site. It contains all the stories that are posted by different users. On the right side of the main page, there are many options attached to it.</li>   
-<li>All the options on the right all not active, only some of the main options are in working mode.
+<li>Upon clicking on "My FATSECRET" button from the upper bar, all the articles appears.</li>
+<li>It contains all the stories that are posted by different users. On the right side of the main page, there are many options attached to it.</li>   
+<li>All the options on the right side are not active, only few main options are in working mode.
   <ol>
     Those are:
       <li>
@@ -34,34 +41,25 @@
       </li>
   </ol>
 </li>
+<li> That's all about "MY FATSECRET BUTTON" ...moving on to the next one...
 </ul>
-<h1></h1>
+<br></br>
 
 
+<hr></hr>
+
+
+<br></br>
+<i><b>2. Click on <i>"FOODS"</i> from the upper bar</b></i> 
+
+<img width="929" alt="food" src="./img/2.png">
 
 <ul>
-<li>This page will show the veraity of food to know different plans for Personal Diet.
-<li>In personal Diet are helps us to be fell healthy and fresh.In this section  you can see and make a proper diet anytime.
-</ul>
-<img width="929" alt="hh" src="./img/food.png">
+<li>This page contains micro-level details about each and every types of food required for a fit and healthy body.</li>
 
-<h1></h1>
+<br></br>
 
-### Food Menu Page List
 
-<ul>
-<li>This page will help to know about food and details.
-
-</ul>
-<img width="929" alt="hh" src="./img/food_menu.png">
-<h1></h1>
-
-### Food Nutritional Details
-
-<ul>
-<li>See details about food on this page.
-</ul>
-<img width="929" alt="hh" src="./img/nutri.png">
 
 <h1></h1>
 👤 Shalendra Singh
