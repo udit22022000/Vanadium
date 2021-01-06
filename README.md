@@ -14,7 +14,7 @@
 
 <i><b>1. Click on <i>"MY FATSECRET"</i> button from the upper bar</b></i> 
 
-<img width="929" alt="hh" src="./img/1.png">
+<img width="929" alt="hh" src="./img/11.png">
 
 <ul>
 <li>This segment contains all the stories that are posted by different users. On the right side of the main page, there are many options attached to it.</li>   
