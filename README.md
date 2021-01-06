@@ -10,7 +10,7 @@
 
 <img width="929" alt="hh" src="./img/1.png">
 
-******Taking one option at a time from the Upper bar**********
+******Taking one at a time**********
 
 <i><b>1. Click on <i>"MY FATSECRET"</i> button from the upper bar</b></i> 
 
@@ -66,7 +66,7 @@
 <img width="929" alt="food" src="./img/3.png">
 
 <ul>
-<li>This page contains description about, how to cook any particular recipe. Just click over any recepie to see the process to cook and any details about ingredients.</li>
+<li>This page contains description about, how to cook any recipe. Just click over any particular recepie(among the first 4) to see the process and details about the ingredients to cook that one.</li>
 <li> That's all about "RECIPES" section...moving on to the next one...</li>
 </ul>
 <br></br>
