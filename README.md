@@ -1,12 +1,12 @@
 # Team Vanadium
 
-## Project Title :- fatSecret.com
+## Project Title : FAT-SECRET CLONE
 
 #### FatSecret is a mobile application, website and API that lets users track their nutrition, exercise and weight. Find great meal ideas, diet tools, community support and more as you discover a world of healthy eating at fatsecret.com.
 
 ## <b>Getting Started with --</b> 
 
-###### After cloning the repo, open the <i>"Home_page/fat_secret.html"</i> file. It is the <b>principal page/feed page</b> of the site. The header section of the page contains a horizontal bar with different options to get on to different pages.
+#### After cloning the repo, open the <i>"Home_page/fat_secret.html"</i> file. It is the <b>principal page/feed page</b> of the site. The header section of the page contains a horizontal bar with different options to get on to different pages.
 
 <img width="929" alt="hh" src="./img/1.png">
 
@@ -87,4 +87,7 @@
 
 <hr></hr>
 
-## That's all, Thank u for giving it a read................
+<div>
+  Blog Link:  <b>https://ping2udit.medium.com/fat-secret-clone-42f2fac12e22</b>
+</div>
+## Thank u for giving it a read................
