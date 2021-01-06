@@ -2,28 +2,42 @@
 
 ## Project Title :- fatSecret.com
 
-#### FatSecret is a mobile application, website and API that lets users track their nutrition, exercise and weight.
+#### FatSecret is a mobile application, website and API that lets users track their nutrition, exercise and weight.Find great meal ideas, diet tools, community support and more as you discover a world of healthy eating at fatsecret.com.
 
-## Technologies Used
+## <b>Getting Started with --</b> 
 
-<ul>
-<li>HTML
-<li>CSS
-<li>Javascript
-</ul>
+### Step 1 ::: 
 
-### Index Page
 
 <ul>
-<li>Overview of the FatSecret.
-<li>FatSecret is a mobile application, website and API that lets users track their nutrition, exercise and weight.
-  Find great meal ideas, diet tools, community support and more as you discover a world of healthy eating at fatsecret.com.
+<li> /** Steps to operate the <b>Main Page</b> of the site **/
+<li>After cloning the repo, open the <b>Home_page/fat_secret.html</b> file. It is the <b>principal page/feed page</b> of the site. It contains all the stories that are posted by different users. On the right side of the main page, there are many options attached to it.</li>   
+<li>All the options on the right all not active, only some of the main options are in working mode.
+  <ol>
+    Those are:
+      <li>
+        My Fatsecret : On Clicking over it, all the feeds posted till now appears.<br>
+        <b>Note: It may happen that sometime support and comment section of the page might not work. To handle it, just click on My Fatsecret button on the right            side.</b>
+     </li>
+      <li>
+        Food: This is for adding one's daily diet to the food diary. 
+      </li>
+      <li>
+        Exercise: This is for adding one's daily activities and exercise to the exercise diary.
+      </li>
+      <li>
+        Journal: This option is used for posting a story in the feed page. Upon clicking over this, a popup appears on the center of the page. There one can write
+        description about that post and add image url to it and by clicking on submit button one can submit that post to the feed page.
+      </li>
+      <li>
+        View My Member Page: It contains description about that particular person. It is somewhat like a profile page.   
+      </li>
+  </ol>
+</li>
 </ul>
-<img width="929" alt="hh" src="./img/home.png">
+<h1></h1>
 
- <h1></h1>
 
-### Food page
 
 <ul>
 <li>This page will show the veraity of food to know different plans for Personal Diet.
