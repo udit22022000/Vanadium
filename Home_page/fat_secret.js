@@ -161,7 +161,7 @@ function local_storage_feeds() {
   var a1 = localStorage.getItem("me_data");
   var b1 = localStorage.getItem("following_data");
   var c1 = localStorage.getItem("featured_data");
-  var d1 = localStorage.getItem("following_data");
+  var d1 = localStorage.getItem("everyone_data");
 
   if (a1 == null) {
     localStorage.setItem("me_data", JSON.stringify(me_data));
@@ -192,6 +192,7 @@ function display_handler(event) {
   var ele10 = document.getElementById("disp_following");
   var ele11 = document.getElementById("disp_cook_book");
   var ele12 = document.getElementById("disp_member_profile");
+  var ele13 = document.getElementById("My_Fatsecret_MainPage");
 
   ele1.style.visibility = "hidden";
   ele2.style.visibility = "hidden";
@@ -207,7 +208,7 @@ function display_handler(event) {
   ele12.style.visibility = "hidden";
 
   var button = event.target;
-  if (button.id == "feeds") {
+  if (button.id == "feeds" || button.id == "My_Fatsecret_MainPage") {
     ele1.style.visibility = "visible";
   }
   if (button.id == "calendar") {
@@ -255,6 +256,9 @@ for (var i = 0; i < topics_2.length; i++) {
   topics_2[i].addEventListener("click", display_handler);
 }
 
+var topics_3 = document
+  .getElementById("My_Fatsecret_MainPage")
+  .addEventListener("click", display_handler);
 // Feeds
 
 class post_feeds {
@@ -283,6 +287,10 @@ class post_feeds {
     this.other_commentor = other_commentor;
     this.add_data_to_parent();
     this.activate_features();
+
+    this.short_profile();
+    this.add_likes();
+    this.add_comments();
   }
 
   //Return Element...START
@@ -592,6 +600,31 @@ class post_feeds {
         this.add_likes();
         this.add_comments();
       });
+
+    document
+      .getElementById("My_Fatsecret_MainPage")
+      .addEventListener("click", () => {
+        this.short_profile();
+        this.add_likes();
+        this.add_comments();
+      });
+
+    window.addEventListener("load", (event) => {
+      this.short_profile();
+      this.add_likes();
+      this.add_comments();
+    });
+
+    var timer = setInterval((count = 1) => {
+      if (count == 5) {
+        clearInterval(timer);
+      }
+
+      this.short_profile();
+      this.add_likes();
+      this.add_comments();
+      count += 1;
+    }, 1000);
   };
   //activate features of the posts..that has been add till now...END
 }
@@ -650,29 +683,7 @@ class display_feeds {
 
   //FOR DISPLAYING DATA PRESENT IN THE LOCAL STORAGE
   calling_feeds1 = (new_arr = "Hello") => {
-    var feeds_arr = [
-      {
-        profile_pic: "profile_pic.jpg",
-        name: "Rohan Kumar",
-        post1: "Mango.....",
-        post2: "images/mango2.jpg",
-        other_likes: 101,
-        other_comment_pic: "profile_pic2.jpg",
-        other_comment: "Hello ................",
-        other_commentor: "Sahil Raj",
-      },
-
-      {
-        profile_pic: "profile_pic2.jpg",
-        name: "Himanshu Kumar",
-        post1: "Pine apples.........",
-        post2: "images/pineapple.jpg",
-        other_likes: 600,
-        other_comment_pic: "profile_pic3.jpg",
-        other_comment: "Heyyyy..............",
-        other_commentor: "Rohan Kumar",
-      },
-    ];
+    var feeds_arr = JSON.parse(localStorage.getItem("everyone_data"));
     document.getElementById("disp_feeds").innerHTML = ""; //MAKING THE FEEDS DISPLAY AREA EMPTY BEFORE ADDING JOURNALS TO IT...
 
     if (new_arr != "Hello") {
